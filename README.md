@@ -15,7 +15,7 @@ The information requested is:
 
 ## Results
 
-Analysis of the input file was carried out in Python 3.7 using  a Jupyter Notebook environment ([PyBer_Challenge.ipynb Notebook](PyBer_Challenge.ipynb)).
+Analysis of the input file was carried out in Python 3.7 using  a Jupyter Notebook environment ([PyBer_Challenge.ipynb](PyBer_Challenge.ipynb)).
 
 The input files **city_data.csv** and **ride_data.csv** were provided in CSV format and can be downloaded from the folder [Resources/](Resources/).
 
@@ -53,7 +53,7 @@ Manipulating the dataframe with the merged input data, we were able to aggregate
 
 Some of the manipulation involved grouping the data by *city type* and *date*, then pivoting and aggregating the data by week.
 
-[![Chart fare summary](Analysis/Pyber_fare_summary.png)](Analysis/Pyber_fare_summary.png)
+[![Chart fare summary](Analysis/PyBer_fare_summary.png)](Analysis/Pyber_fare_summary.png)
 
 It's important to note that the data included in the chart spans from 2019-01-01 to 2019-04-29 (exclusive) as otherwise only 1 day is included in the week and would not be comparable to the rest of the chart.  This filtering was done by using the following code.
 
