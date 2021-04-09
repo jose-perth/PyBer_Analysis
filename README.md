@@ -15,7 +15,7 @@ The information requested is:
 
 ## Results
 
-Analysis of the input file was carried out in Python 3.7 using  a Jupyter Notebook environment ([PyBer_Challenge.ipynb](PyBer_Challenge.ipynb)) (also viewable at [PyBer_Challenge.ipynb HTML](https://htmlpreview.github.io/?https://github.com/jose-perth/School_District_Analysis/blob/main/PyBer_Challenge.html)).
+Analysis of the input file was carried out in Python 3.7 using  a Jupyter Notebook environment ([PyBer_Challenge.ipynb](PyBer_Challenge.ipynb)) (also viewable at [PyBer_Challenge.ipynb HTML](https://htmlpreview.github.io/?https://github.com/jose-perth/PyBer_Analysis/blob/main/PyBer_Challenge.html)).
 
 The input files **city_data.csv** and **ride_data.csv** were provided in CSV format and can be downloaded from the folder [Resources/](Resources/).
 
