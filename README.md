@@ -41,7 +41,7 @@ Then all metrics were included into a DataFrame and formatted accordingly.
 
 [![Per City Type DataFrame](Analysis/Ride_data_summary_table.png)](Analysis/Ride_data_summary_table.png)
 
-A couple of interesting points can be seen on this table:
+As expected the *Total Rides*, *Total Drivers* and *Total Fares* are highest in the *Urban* group and lowest in the *Rural* group. However, the inverse order is observed when looking at the *Average Fare per Ride* and *Average Fare per Driver*.  Some interesting points can be seen from this:
 
 1. The *Total Rides* in the *Urban* group (1,625) is less than the *Total Drivers* in the same group (2,405) for the time period covered within the analysis. There is a considerably number of drivers that were not active during the period.  This affects the *Average Fare per Driver* significantly.
 
@@ -53,7 +53,7 @@ Manipulating the dataframe with the merged input data, we were able to aggregate
 
 Some of the manipulation involved grouping the data by *city type* and *date*, then pivoting and aggregating the data by week.
 
-[![Chart fare summary](Analysis/PyBer_fare_summary.png)](Analysis/Pyber_fare_summary.png)
+[![Chart fare summary](Analysis/PyBer_fare_summary.png)](Analysis/PyBer_fare_summary.png)
 
 It's important to note that the data included in the chart spans from 2019-01-01 to 2019-04-29 (exclusive) as otherwise only 1 day is included in the week and would not be comparable to the rest of the chart.  This filtering was done by using the following code.
 
